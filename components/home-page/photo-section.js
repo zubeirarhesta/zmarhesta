@@ -56,7 +56,8 @@ export default function Photo() {
         }`}
         ref={photoTitleRef}
       >
-        featured photos shooted by me
+        featured photos shooted
+        <br /> by me
       </div>
       <ul className={styles.cards_container} ref={cardsRef}>
         <li
