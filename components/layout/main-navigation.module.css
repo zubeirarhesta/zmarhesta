@@ -56,7 +56,7 @@
 
 .navbar_active {
   padding: 20px 30px;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgb(255, 255, 255);
 }
 
 .logo_active {

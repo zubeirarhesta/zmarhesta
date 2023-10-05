@@ -1,0 +1,22 @@
+.card {
+  overflow: hidden;
+  position: relative;
+  height: 350px;
+  width: 300px;
+  border-radius: 20px;
+  margin: 30px 20px;
+}
+
+.card_img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 400px) {
+  .card {
+    height: 150px;
+    width: 200px;
+    margin: 5px 10px;
+  }
+}
