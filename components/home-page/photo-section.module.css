@@ -21,6 +21,7 @@
   font-size: 1.8em;
   font-weight: 700;
   text-transform: lowercase;
+  text-align: center;
   letter-spacing: 3px;
   color: rgb(196, 196, 196);
   opacity: 0;
@@ -40,6 +41,10 @@
   align-items: center;
   margin: 20px 0;
   transition: all 1s;
+}
+
+.cards_container li {
+  list-style: none;
 }
 
 .hidden {

@@ -7,10 +7,44 @@
   margin: 30px 20px;
 }
 
-.card_img {
+#card_img {
   object-fit: cover;
   height: 100%;
   width: 100%;
+  transition: all 1s;
+}
+
+#card_img_alt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  min-width: 300px;
+  min-height: 350px;
+  z-index: 50;
+}
+
+#img_alt_wrapper {
+  overflow: hidden;
+}
+
+#img_alt {
+  text-shadow: 2px 2px 8px #4b4b4b;
+  transform-origin: center;
+  transform: translateY(100%);
+  transition: all 0.5s;
+}
+
+#card_img_alt:hover + #card_img {
+  transform: scale(1.1);
+}
+
+#card_img_alt:hover #img_alt {
+  transform: translateY(0);
 }
 
 @media (max-width: 400px) {

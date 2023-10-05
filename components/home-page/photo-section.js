@@ -65,28 +65,28 @@ export default function Photo() {
             isCardIntersecting ? `${styles.slideIn}` : ""
           }`}
         >
-          <Card image="card-image1.jpeg" />
+          <Card image="card-image1.jpeg" alt="cikalong kulon, cianjur, 2022" />
         </li>
         <li
           className={`${styles.hidden} ${
             isCardIntersecting ? `${styles.slideIn}` : ""
           }`}
         >
-          <Card image="card-image2.jpeg" />
+          <Card image="card-image2.jpeg" alt="tol cipularang, km 97, 2022" />
         </li>
         <li
           className={`${styles.hidden} ${
             isCardIntersecting ? `${styles.slideIn}` : ""
           }`}
         >
-          <Card image="card-image3.jpeg" />
+          <Card image="card-image3.jpeg" alt="karang tengah, cianjur, 2022" />
         </li>
         <li
           className={`${styles.hidden} ${
             isCardIntersecting ? `${styles.slideIn}` : ""
           }`}
         >
-          <Card image="card-image4.jpeg" />
+          <Card image="card-image4.jpeg" alt="sukaluyu, cianjur, 2021" />
         </li>
       </ul>
     </section>
