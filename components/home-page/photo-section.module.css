@@ -69,6 +69,8 @@
 
   .photo_sub_title {
     font-size: 1em;
+    letter-spacing: 0;
+    text-align: center;
   }
 
   .cards_container {
