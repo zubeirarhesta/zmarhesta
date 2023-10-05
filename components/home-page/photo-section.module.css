@@ -55,7 +55,9 @@
 .cards_container li:nth-child(3) {
   transition-delay: 400ms;
 }
-
+.cards_container li:nth-child(3) {
+  transition-delay: 600ms;
+}
 .slideIn {
   opacity: 1;
   filter: blur(0);
