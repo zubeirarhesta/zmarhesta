@@ -7,7 +7,7 @@
   height: 100vh;
   width: full;
   overflow: hidden;
-  background-color: rgb(185, 185, 185);
+  background: rgb(185, 185, 185);
   font-family: "Poppins", sans-serif;
 }
 

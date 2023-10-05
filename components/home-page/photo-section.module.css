@@ -13,10 +13,12 @@
   text-transform: uppercase;
   color: white;
   opacity: 0;
+  transform: translateY(50%);
   transition: all 2s;
 }
 
 .fadeIn {
+  transform: translateY(0);
   opacity: 1;
 }
 
