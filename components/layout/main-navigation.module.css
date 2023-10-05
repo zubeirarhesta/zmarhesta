@@ -51,7 +51,7 @@
 
 .logo:hover,
 .links li a:hover {
-  color: rgb(70, 175, 0);
+  color: black;
 }
 
 .navbar_active {
