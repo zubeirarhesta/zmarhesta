@@ -65,21 +65,28 @@ export default function Photo() {
             isCardIntersecting ? `${styles.slideIn}` : ""
           }`}
         >
-          <Card image="card-image.jpg" />
+          <Card image="card-image1.jpeg" />
         </li>
         <li
           className={`${styles.hidden} ${
             isCardIntersecting ? `${styles.slideIn}` : ""
           }`}
         >
-          <Card image="card-image.jpg" />
+          <Card image="card-image2.jpeg" />
         </li>
         <li
           className={`${styles.hidden} ${
             isCardIntersecting ? `${styles.slideIn}` : ""
           }`}
         >
-          <Card image="card-image.jpg" />
+          <Card image="card-image3.jpeg" />
+        </li>
+        <li
+          className={`${styles.hidden} ${
+            isCardIntersecting ? `${styles.slideIn}` : ""
+          }`}
+        >
+          <Card image="card-image4.jpeg" />
         </li>
       </ul>
     </section>
