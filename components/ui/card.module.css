@@ -53,4 +53,9 @@
     width: 300px;
     margin: 5px 10px;
   }
+
+  #card_img_alt {
+    min-width: 300px;
+    min-height: 150px;
+  }
 }
