@@ -1,5 +1,5 @@
 .hero {
-  top: 50px;
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -40,6 +40,28 @@
 .revealed {
   transform: translateX(0%);
   opacity: 1;
+}
+
+.bottom_waves {
+  position: absolute;
+  margin-bottom: -1px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.bottom_waves svg {
+  position: relative;
+  display: block;
+  width: calc(133% + 1.3px);
+  height: 63px;
+}
+
+.bottom_waves .shape-fill {
+  fill: #000000;
 }
 
 /* .hero_img {
