@@ -48,7 +48,7 @@ export default function Photo() {
         }`}
         ref={photoTitleRef}
       >
-        My Photographs
+        Featured Ones
       </div>
       <div
         className={`${styles.photo_sub_title} ${
@@ -56,7 +56,7 @@ export default function Photo() {
         }`}
         ref={photoTitleRef}
       >
-        featured photos shooted
+        featured photos taken
         <br /> by me
       </div>
       <ul className={styles.cards_container} ref={cardsRef}>
