@@ -36,7 +36,10 @@ export default function Hero() {
         }`}
       >
         <h1>Hi, I am Zubeir Arhesta</h1>
-        <p>I am software engineer and I love photography</p>
+        <p>
+          I am software engineer and
+          <br /> I love photography
+        </p>
       </div>
       <div className={styles.bottom_waves}>
         <svg
