@@ -1,14 +1,17 @@
 import styles from "@/components/home-page/photo-section.module.css";
 import { useEffect, useRef, useState } from "react";
 import Card from "../ui/card";
+import { photos } from "@/data";
 
-export default function Photo() {
+export default function Photo({ onPhotoClick }) {
   const [isPhotoTitleIntersecting, setIsPhotoTitleIntersecting] =
     useState(false);
   const photoTitleRef = useRef(null);
 
   const [isCardIntersecting, setIsCardIntersecting] = useState(false);
   const cardsRef = useRef(null);
+
+  const featuredPhotos = photos.filter((photo) => photo.isFeatured == true);
 
   useEffect(() => {
     const photoTitleObserver = new IntersectionObserver(
@@ -60,34 +63,17 @@ export default function Photo() {
         <br /> by me
       </div>
       <ul className={styles.cards_container} ref={cardsRef}>
-        <li
-          className={`${styles.hidden} ${
-            isCardIntersecting ? `${styles.slideIn}` : ""
-          }`}
-        >
-          <Card image="card-image1.jpeg" alt="cikalong kulon, cianjur, 2022" />
-        </li>
-        <li
-          className={`${styles.hidden} ${
-            isCardIntersecting ? `${styles.slideIn}` : ""
-          }`}
-        >
-          <Card image="card-image2.jpeg" alt="tol cipularang, km 97, 2022" />
-        </li>
-        <li
-          className={`${styles.hidden} ${
-            isCardIntersecting ? `${styles.slideIn}` : ""
-          }`}
-        >
-          <Card image="card-image3.jpeg" alt="karang tengah, cianjur, 2022" />
-        </li>
-        <li
-          className={`${styles.hidden} ${
-            isCardIntersecting ? `${styles.slideIn}` : ""
-          }`}
-        >
-          <Card image="card-image4.jpeg" alt="sukaluyu, cianjur, 2021" />
-        </li>
+        {featuredPhotos.map((photo) => (
+          <li
+            key={photo.id}
+            className={`${styles.hidden} ${
+              isCardIntersecting ? `${styles.slideIn}` : ""
+            }`}
+            onClick={() => onPhotoClick(photo.id)}
+          >
+            <Card image={photo.url} alt={photo.alt} />
+          </li>
+        ))}
       </ul>
     </section>
   );
