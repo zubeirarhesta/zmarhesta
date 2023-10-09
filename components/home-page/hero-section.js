@@ -35,8 +35,8 @@ export default function Hero() {
           isProfileScrolled ? `${styles.revealed}` : ""
         }`}
       >
-        <h1>Zubeir Arhesta</h1>
-        <p>I love programming and photography</p>
+        <h1>Hi, I am Zubeir Arhesta</h1>
+        <p>I am software engineer and I love photography</p>
       </div>
       <div className={styles.bottom_waves}>
         <svg

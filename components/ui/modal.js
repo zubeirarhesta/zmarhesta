@@ -11,6 +11,7 @@ const Modal = ({ id, onClose, isOpen }) => {
       }`}
       onClick={onClose}
     >
+      <h3>{currentPhoto.alt}</h3>
       <img
         className={`${styles.modal_img} ${isOpen ? `${styles.img_show}` : ""}`}
         src={`/images/${currentPhoto?.url}`}
@@ -21,7 +22,7 @@ const Modal = ({ id, onClose, isOpen }) => {
         }`}
         onClick={onClose}
       >
-        <i class="material-icons">close</i>
+        <i className="material-icons">close</i>
       </button>
     </div>
   );
