@@ -37,7 +37,7 @@ export default function Hero() {
       >
         <h1>Hi, I am Zubeir Arhesta</h1>
         <p>
-          I am software engineer and
+          I am a software engineer and
           <br /> I love photography
         </p>
       </div>
