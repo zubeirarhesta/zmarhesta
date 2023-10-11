@@ -59,4 +59,6 @@ const Footer = forwardRef(({ iconVisibility }, ref) => {
   );
 });
 
+Footer.displayName = "Footer";
+
 export default Footer;
