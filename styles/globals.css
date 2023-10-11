@@ -12,4 +12,10 @@ body {
 
 body {
   background-color: black;
+  transition: all 2s;
+}
+
+.colored_body {
+  background: rgb(0, 47, 78);
+  color: white;
 }
