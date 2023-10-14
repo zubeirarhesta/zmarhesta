@@ -39,12 +39,12 @@
   transition: all 0.5s;
 }
 
-#card_img_alt:hover + #card_img {
-  transform: scale(1.1);
-}
-
 #card_img_alt:hover #img_alt {
   transform: translateY(0);
+}
+
+#card_img_alt:hover + #card_img {
+  transform: scale(1.1);
 }
 
 @media (max-width: 400px) {
@@ -57,5 +57,9 @@
   #card_img_alt {
     min-width: 300px;
     min-height: 150px;
+  }
+
+  #img_alt {
+    display: none;
   }
 }
