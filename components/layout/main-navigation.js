@@ -1,4 +1,5 @@
 import styles from "@/components/layout/main-navigation.module.css";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 
@@ -18,13 +19,13 @@ export default function MainNavigation() {
         </a>
         <ul className={`${styles.links} ${styles.links_active}`}>
           <li>
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <a href="/about">About</a>
+            <Link href="/about">About</Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </header>
