@@ -20,7 +20,7 @@ export default function MainNavigation() {
     window.addEventListener("scroll", changeActive);
   }, [changeActive]);
 
-  if (router.pathname === "/about") {
+  /* if (router.pathname === "/about") {
     return (
       <header
         className={`${styles.navbar} ${styles.navbar_active}`}
@@ -42,7 +42,7 @@ export default function MainNavigation() {
         </ul>
       </header>
     );
-  }
+  } */
 
   return (
     <header
