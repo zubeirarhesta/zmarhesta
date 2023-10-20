@@ -9,9 +9,12 @@
   font-family: "Poppins", sans-serif;
 }
 
+.contact_wrapper h1 {
+  color: white;
+}
+
 @media (max-width: 400px) {
   .contact_wrapper h1 {
     font-size: 1.5rem;
-    color: white;
   }
 }

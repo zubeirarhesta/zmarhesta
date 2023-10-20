@@ -34,7 +34,7 @@ export default function About() {
         <h1 className={styles.title}>ABOUT</h1>
       </div>
 
-      <section className={styles.section} ref={contentRef}>
+      <div className={styles.section} ref={contentRef}>
         <p
           className={`${styles.p} ${
             isContentIntersecting ? `${styles.reveal}` : ""
@@ -46,7 +46,7 @@ export default function About() {
           <br />
           animation on scroll using intersection observer
         </p>
-      </section>
+      </div>
     </div>
   );
 }
