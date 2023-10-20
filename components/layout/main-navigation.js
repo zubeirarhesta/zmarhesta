@@ -41,7 +41,7 @@ export default function MainNavigation() {
 
     useEffect(() => {
       window.addEventListener("scroll", changeActive);
-    }, []);
+    }, [changeActive]);
   }
 
   return (
