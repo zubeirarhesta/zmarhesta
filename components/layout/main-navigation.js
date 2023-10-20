@@ -30,19 +30,19 @@ export default function MainNavigation() {
         </ul>
       </header>
     );
+  } else {
+    const changeActive = () => {
+      if (window.scrollY >= 20) {
+        setNavbarActive(true);
+      } else {
+        setNavbarActive(false);
+      }
+    };
+
+    useEffect(() => {
+      window.addEventListener("scroll", changeActive);
+    }, []);
   }
-
-  const changeActive = () => {
-    if (window.scrollY >= 20) {
-      setNavbarActive(true);
-    } else {
-      setNavbarActive(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", changeActive);
-  }, []);
 
   return (
     <header
