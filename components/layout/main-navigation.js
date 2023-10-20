@@ -8,6 +8,18 @@ export default function MainNavigation() {
   const navbarRef = useRef(null);
   const router = useRouter();
 
+  const changeActive = () => {
+    if (window.scrollY >= 20) {
+      setNavbarActive(true);
+    } else {
+      setNavbarActive(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeActive);
+  }, [changeActive]);
+
   if (router.pathname === "/about") {
     return (
       <header
@@ -30,18 +42,6 @@ export default function MainNavigation() {
         </ul>
       </header>
     );
-  } else {
-    const changeActive = () => {
-      if (window.scrollY >= 20) {
-        setNavbarActive(true);
-      } else {
-        setNavbarActive(false);
-      }
-    };
-
-    useEffect(() => {
-      window.addEventListener("scroll", changeActive);
-    }, [changeActive]);
   }
 
   return (
