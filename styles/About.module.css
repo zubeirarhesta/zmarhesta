@@ -37,6 +37,7 @@
 .section {
   height: 100vh;
   font-size: 1.5rem;
+  font-weight: 900;
   padding: auto auto;
   background: black;
   color: white;
@@ -72,7 +73,6 @@
 
   .section {
     font-size: 1rem;
-    font-weight: 900;
     padding: auto 10px;
     text-transform: lowercase;
     text-align: start;
