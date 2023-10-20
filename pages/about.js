@@ -19,13 +19,11 @@ export default function About() {
     return () => contentObserver.disconnect();
   }, [isContentIntersecting]);
 
-  /* useEffect(() => {
+  useEffect(() => {
     if (isContentIntersecting) {
-      console.log("intersecting");
     } else {
-      console.log("not intersecting");
     }
-  }, [isContentIntersecting]); */
+  }, [isContentIntersecting]);
 
   return (
     <div className={styles.wrapper}>
