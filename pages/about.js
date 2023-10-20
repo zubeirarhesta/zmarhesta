@@ -5,7 +5,7 @@ export default function About() {
   const [isContentIntersecting, setIsContentIntersecting] = useState(false);
   const contentRef = useRef(null);
 
-  useEffect(() => {
+  /* useEffect(() => {
     const contentObserver = new IntersectionObserver(
       ([entry]) => {
         setIsContentIntersecting(entry.isIntersecting);
@@ -23,7 +23,7 @@ export default function About() {
     if (isContentIntersecting) {
     } else {
     }
-  }, [isContentIntersecting]);
+  }, [isContentIntersecting]); */
 
   return (
     <div className={styles.wrapper}>
