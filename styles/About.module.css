@@ -71,8 +71,14 @@
   }
 
   .section {
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 900;
-    padding: auto 2rem;
+    padding: auto 10px;
+    text-transform: lowercase;
+    text-align: start;
+  }
+
+  .p {
+    margin-left: 20px;
   }
 }

@@ -40,7 +40,9 @@ export default function About() {
         >
           This ABOUT page is under contruction <br />
           <br />
-          This page uses both parallax effect with pure css and <br />
+          This page uses both <br />
+          <br />
+          parallax effect with pure css and <br />
           <br />
           animation on scroll using intersection observer
         </p>
