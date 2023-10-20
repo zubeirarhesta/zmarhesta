@@ -32,7 +32,7 @@ export default function HomePage() {
 
     footerObs.observe(footerRef.current);
 
-    return () => footerObs.unobserve(footerRef.current);
+    return () => footerObs.disconnect();
   }, [isFooterIntersecting]);
 
   useEffect(() => {
