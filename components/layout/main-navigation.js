@@ -1,9 +1,35 @@
 import styles from "@/components/layout/main-navigation.module.css";
+import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 
 export default function MainNavigation() {
   const [navbarActive, setNavbarActive] = useState(false);
   const navbarRef = useRef(null);
+  const router = useRouter();
+
+  if (router.pathname === "/about") {
+    return (
+      <header
+        className={`${styles.navbar} ${styles.navbar_active}`}
+        ref={navbarRef}
+      >
+        <a href="#" className={`${styles.logo} ${styles.logo_active}`}>
+          zmarhesta
+        </a>
+        <ul className={`${styles.links} ${styles.links_active}`}>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
+      </header>
+    );
+  }
 
   const changeActive = () => {
     if (window.scrollY >= 20) {
@@ -38,10 +64,10 @@ export default function MainNavigation() {
         } `}
       >
         <li>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="/about">About</a>
         </li>
         <li>
           <a href="#">Contact</a>
