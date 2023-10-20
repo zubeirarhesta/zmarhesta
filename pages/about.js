@@ -16,7 +16,7 @@ export default function About() {
     );
 
     contentObserver.observe(contentRef.current);
-    return () => contentObserver.unobserve(contentRef.current);
+    return () => contentObserver.disconnect();
   }, [isContentIntersecting]);
 
   /* useEffect(() => {
