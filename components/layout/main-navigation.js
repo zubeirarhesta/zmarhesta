@@ -26,7 +26,7 @@ export default function MainNavigation() {
         className={`${styles.navbar} ${styles.navbar_active}`}
         ref={navbarRef}
       >
-        <Link href="#" className={`${styles.logo} ${styles.logo_active}`}>
+        <Link href="/" className={`${styles.logo} ${styles.logo_active}`}>
           zmarhesta
         </Link>
         <ul className={`${styles.links} ${styles.links_active}`}>
@@ -52,7 +52,7 @@ export default function MainNavigation() {
       ref={navbarRef}
     >
       <Link
-        href="#"
+        href="/"
         className={`${styles.logo} ${
           navbarActive ? `${styles.logo_active}` : ""
         } `}
