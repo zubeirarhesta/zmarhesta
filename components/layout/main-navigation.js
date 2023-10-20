@@ -14,9 +14,9 @@ export default function MainNavigation() {
         className={`${styles.navbar} ${styles.navbar_active}`}
         ref={navbarRef}
       >
-        <a href="#" className={`${styles.logo} ${styles.logo_active}`}>
+        <Link href="#" className={`${styles.logo} ${styles.logo_active}`}>
           zmarhesta
-        </a>
+        </Link>
         <ul className={`${styles.links} ${styles.links_active}`}>
           <li>
             <Link href="/">Home</Link>
@@ -51,27 +51,27 @@ export default function MainNavigation() {
       } `}
       ref={navbarRef}
     >
-      <a
+      <Link
         href="#"
         className={`${styles.logo} ${
           navbarActive ? `${styles.logo_active}` : ""
         } `}
       >
         zmarhesta
-      </a>
+      </Link>
       <ul
         className={`${styles.links} ${
           navbarActive ? `${styles.links_active}` : ""
         } `}
       >
         <li>
-          <a href="/">Home</a>
+          <Link href="/">Home</Link>
         </li>
         <li>
-          <a href="/about">About</a>
+          <Link href="/about">About</Link>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <Link href="#">Contact</Link>
         </li>
       </ul>
     </header>
