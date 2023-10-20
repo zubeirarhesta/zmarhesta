@@ -16,13 +16,13 @@
   border-radius: 100%;
   width: 200px;
   height: 200px;
-  transform: translateX(75%);
+  transform: translateX(100%);
   transition: all 1s;
 }
 
 .scrolled {
   border-radius: 50px;
-  transform: translateX(-25%);
+  transform: translateX(0%);
 }
 
 .profile_desc {

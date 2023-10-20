@@ -18,9 +18,9 @@
 }
 
 .photo_sub_title {
-  font-size: 1.5em;
-  font-weight: 700;
-  text-transform: lowercase;
+  font-size: 1.2em;
+  font-weight: 300;
+  text-transform: uppercase;
   text-align: center;
   letter-spacing: 3px;
   color: rgb(196, 196, 196);
@@ -75,7 +75,7 @@
   }
 
   .photo_sub_title {
-    font-size: 1em;
+    font-size: 0.9em;
     letter-spacing: 0;
     text-align: center;
   }

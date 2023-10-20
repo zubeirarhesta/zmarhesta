@@ -59,8 +59,7 @@ export default function Photo({ onPhotoClick }) {
         }`}
         ref={photoTitleRef}
       >
-        featured photos taken
-        <br /> by me
+        featured photos taken by me
       </div>
       <ul className={styles.cards_container} ref={cardsRef}>
         {featuredPhotos.map((photo) => (
