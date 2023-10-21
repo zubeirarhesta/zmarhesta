@@ -1,4 +1,5 @@
 import styles from "@/components/ui/card.module.css";
+import Image from "next/image";
 
 export default function Card({ image, alt }) {
   return (
@@ -8,7 +9,14 @@ export default function Card({ image, alt }) {
           <h3 id={styles.img_alt}>{alt}</h3>
         </div>
       </div>
-      <img id={styles.card_img} src={`/images/${image}`} />
+      <Image
+        id={styles.card_img}
+        src={`/images/${image}`}
+        width={500}
+        height={500}
+        alt={alt}
+        quality={50}
+      />
     </div>
   );
 }

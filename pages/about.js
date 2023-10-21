@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import styles from "@/styles/About.module.css";
+import Image from "next/image";
 
 export default function About() {
   const [isContentIntersecting, setIsContentIntersecting] = useState(false);
@@ -28,7 +29,14 @@ export default function About() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.header}>
-        <img src="/images/parallax3.jpeg" className={styles.background} />
+        <Image
+          src="/images/parallax3.jpeg"
+          className={styles.background}
+          width={800}
+          height={500}
+          alt="parallax background"
+          quality={50}
+        />
         <h1 className={styles.title}>ABOUT</h1>
       </div>
 
