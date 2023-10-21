@@ -40,7 +40,7 @@
   font-weight: 900;
   padding: auto auto;
   background: black;
-  color: white;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,7 +52,6 @@
 
 .colored_section {
   background: white;
-  color: black;
 }
 
 .p {
