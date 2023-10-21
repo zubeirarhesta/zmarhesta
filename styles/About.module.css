@@ -47,6 +47,11 @@
   text-transform: lowercase;
   text-align: start;
   /* perspective: 10px; */
+  transition: all 1s;
+}
+
+.colored_section {
+  background: rgb(0, 47, 78);
 }
 
 .p {

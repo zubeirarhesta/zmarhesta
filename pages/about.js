@@ -32,7 +32,12 @@ export default function About() {
         <h1 className={styles.title}>ABOUT</h1>
       </div>
 
-      <div className={styles.section} ref={contentRef}>
+      <div
+        className={`${styles.section} ${
+          isContentIntersecting ? `${styles.colored_section}` : ""
+        }`}
+        ref={contentRef}
+      >
         <p
           className={`${styles.p} ${
             isContentIntersecting ? `${styles.reveal}` : ""
