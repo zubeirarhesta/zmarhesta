@@ -28,7 +28,7 @@ export default function About() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.header}>
-        <img src="/images/parallax_bg.jpeg" className={styles.background} />
+        <img src="/images/parallax.jpeg" className={styles.background} />
         <h1 className={styles.title}>ABOUT</h1>
       </div>
 
