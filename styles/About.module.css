@@ -51,7 +51,8 @@
 }
 
 .colored_section {
-  background: rgb(0, 47, 78);
+  background: white;
+  color: black;
 }
 
 .p {
