@@ -35,7 +35,7 @@ export default function About() {
           width={800}
           height={500}
           alt="parallax background"
-          quality={50}
+          quality={80}
         />
         <h1 className={styles.title}>ABOUT</h1>
       </div>
