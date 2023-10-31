@@ -28,7 +28,7 @@ export default function Hero() {
         className={`${styles.profile_img} ${
           isProfileScrolled ? `${styles.scrolled}` : ""
         }`}
-        src="/images/profile-image-2.jpeg"
+        src="/images/profile-image.JPG"
       />
       <div
         className={`${styles.profile_desc} ${

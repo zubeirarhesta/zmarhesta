@@ -37,7 +37,7 @@ export const photos = [
   },
   {
     id: 6,
-    alt: "manggarai, jakarta, 2021",
+    alt: "puncak gede, gunung gede, 2022",
     url: "photos/card-image7.jpeg",
     isFeatured: false,
   },
@@ -45,6 +45,12 @@ export const photos = [
     id: 7,
     alt: "manggarai, jakarta, 2021",
     url: "photos/card-image8.jpeg",
+    isFeatured: false,
+  },
+  {
+    id: 8,
+    alt: "manggarai, jakarta, 2021",
+    url: "photos/card-image9.jpeg",
     isFeatured: false,
   },
 ];

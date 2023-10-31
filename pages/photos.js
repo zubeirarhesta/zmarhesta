@@ -86,10 +86,10 @@ export default function Photos() {
               <Image
                 id={styles.slide_img}
                 src={`/images/${photo.url}`}
-                width={250}
-                height={300}
+                width={500}
+                height={600}
                 alt={photo.alt}
-                quality={50}
+                quality={80}
               />
             </SwiperSlide>
           ))}
