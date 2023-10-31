@@ -9,6 +9,7 @@ const Footer = forwardRef(({ iconVisibility }, ref) => {
         <p>stacks used for this website</p>
         <h3> html, css, js, react</h3>
       </div>
+      <h4 className={styles.footer_icons_title}>my social media</h4>
       <ul className={styles.footer_icons}>
         <li
           className={`${styles.hidden} ${
