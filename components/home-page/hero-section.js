@@ -35,7 +35,9 @@ export default function Hero() {
           isProfileScrolled ? `${styles.revealed}` : ""
         }`}
       >
-        <h1>Hi, I am Zubeir Arhesta</h1>
+        <h1>
+          Hi, <br />I am Zubeir Arhesta
+        </h1>
         <p>
           I am a software engineer,
           <br /> a teacher,
