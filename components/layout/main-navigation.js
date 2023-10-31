@@ -20,7 +20,7 @@ export default function MainNavigation() {
     window.addEventListener("scroll", changeActive);
   }, [changeActive]);
 
-  if (router.pathname === "/about" || router.pathname === "/contact") {
+  if (router.pathname === "/photos" || router.pathname === "/contact") {
     return (
       <header
         className={`${styles.navbar} ${styles.navbar_active}`}
@@ -34,7 +34,7 @@ export default function MainNavigation() {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="/photos">Photos</Link>
           </li>
           <li>
             <Link href="/contact">Contact</Link>
@@ -68,7 +68,7 @@ export default function MainNavigation() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/about">About</Link>
+          <Link href="/photos">Photos</Link>
         </li>
         <li>
           <Link href="/contact">Contact</Link>
