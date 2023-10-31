@@ -37,7 +37,7 @@ export const photos = [
   },
   {
     id: 6,
-    alt: "puncak gede, gunung gede, 2022",
+    alt: "puncak, gunung gede, 2022",
     url: "photos/card-image7.jpeg",
     isFeatured: false,
   },
