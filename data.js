@@ -31,7 +31,7 @@ export const photos = [
   },
   {
     id: 5,
-    alt: "alun surken, gunung gede, 2022",
+    alt: "surken, gunung gede, 2022",
     url: "photos/card-image6.jpeg",
     isFeatured: false,
   },
