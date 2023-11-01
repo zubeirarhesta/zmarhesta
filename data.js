@@ -1,7 +1,7 @@
 export const photos = [
   {
     id: 0,
-    alt: "cikalong kulon, cianjur, 2022",
+    alt: "karang tengah, cianjur, 2022",
     url: "photos/card-image1.jpeg",
     isFeatured: true,
   },
@@ -13,7 +13,7 @@ export const photos = [
   },
   {
     id: 2,
-    alt: "karang tengah, cianjur, 2022",
+    alt: "cikalong kulon, cianjur, 2022",
     url: "photos/card-image3.jpeg",
     isFeatured: true,
   },
@@ -31,7 +31,7 @@ export const photos = [
   },
   {
     id: 5,
-    alt: "alun surken, cianjur, 2022",
+    alt: "alun surken, gunung gede, 2022",
     url: "photos/card-image6.jpeg",
     isFeatured: false,
   },

@@ -95,15 +95,20 @@
     align-items: center;
     text-align: center;
     padding: 20px 15px;
+    padding-left: 30px;
     transform: translateY(-75%);
+    /* background-color: brown; */
   }
 
   .profile_desc h1 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    text-align: left;
+    align-self: self-start;
   }
 
   .profile_desc p {
     text-align: left;
+    font-size: 0.8rem;
   }
 
   .revealed {

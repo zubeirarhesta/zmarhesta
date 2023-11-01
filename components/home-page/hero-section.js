@@ -36,10 +36,11 @@ export default function Hero() {
         }`}
       >
         <h1>
-          Hi, <br />I am Zubeir Arhesta
+          Hi, I am <br />
+          Zubeir Arhesta
         </h1>
         <p>
-          I am a software engineer,
+          a software engineer,
           <br /> a teacher,
           <br /> and I love photography
         </p>
