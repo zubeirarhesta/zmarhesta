@@ -89,7 +89,7 @@ export default function Photos() {
                 width={300}
                 height={400}
                 alt={photo.alt}
-                quality={60}
+                quality={70}
               />
             </SwiperSlide>
           ))}
