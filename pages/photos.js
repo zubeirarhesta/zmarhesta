@@ -36,7 +36,7 @@ export default function Photos() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.header}>
-        <img src="/images/parallax.jpeg" className={styles.background} />
+        <img src="/images/parallax-hero.jpeg" className={styles.background} />
         <h1 className={styles.title}>PHOTOS</h1>
       </div>
 

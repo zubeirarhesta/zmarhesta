@@ -163,10 +163,11 @@
 
 #img_alt_wrapper {
   overflow: hidden;
+  padding: 0 5px;
 }
 
 #img_alt {
-  text-shadow: 2px 2px 8px #4b4b4b;
+  text-shadow: 0 0 0 white;
   transform-origin: center;
   font-size: 1rem;
   transform: translateY(100%);
@@ -175,6 +176,7 @@
 
 #slide_img_alt:hover #img_alt {
   transform: translateY(0);
+  text-shadow: 2px 2px 8px #4b4b4b;
 }
 
 #slide_img_alt:hover + #slide_img {
@@ -204,5 +206,10 @@
   .slide {
     max-width: 250px;
     min-height: 350px;
+  }
+
+  #img_alt_wrapper {
+    overflow: hidden;
+    padding: 5px 5px;
   }
 }
