@@ -1,9 +1,9 @@
 export const photos = [
   {
     id: 0,
-    alt: "karang tengah, cianjur, 2022",
-    url: "photos/card-image1.jpeg",
-    isFeatured: true,
+    alt: "al-ma'shum, cianjur, 2022",
+    url: "photos/card-image10.jpg",
+    isFeatured: false,
   },
   {
     id: 1,
@@ -52,5 +52,11 @@ export const photos = [
     alt: "manggarai, jakarta, 2021",
     url: "photos/card-image9.jpeg",
     isFeatured: false,
+  },
+  {
+    id: 9,
+    alt: "karang tengah, cianjur, 2022",
+    url: "photos/card-image1.jpeg",
+    isFeatured: true,
   },
 ];
