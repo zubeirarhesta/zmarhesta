@@ -171,7 +171,7 @@
   text-shadow: 0 0 0 white;
   transform-origin: center;
   font-size: 1rem;
-  transform: translateY(200%);
+  transform: translateY(220%);
   transition: all 0.5s;
 }
 
