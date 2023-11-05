@@ -80,7 +80,8 @@ export default function Photos() {
             <SwiperSlide className={styles.slide} key={photo.id}>
               <div id={styles.slide_img_alt}>
                 <div id={styles.img_alt_wrapper}>
-                  <h3 id={styles.img_alt}>{photo.alt}</h3>
+                  <h4 id={styles.img_alt}>{photo.alt}</h4>
+                  <h4 id={styles.img_alt}>{photo.date}</h4>
                 </div>
               </div>
               <Image

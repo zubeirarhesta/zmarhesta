@@ -70,7 +70,7 @@ export default function Photo({ onPhotoClick }) {
             }`}
             onClick={() => onPhotoClick(photo.id)}
           >
-            <Card image={photo.url} alt={photo.alt} />
+            <Card image={photo.url} alt={photo.alt} date={photo.date} />
           </li>
         ))}
       </ul>
